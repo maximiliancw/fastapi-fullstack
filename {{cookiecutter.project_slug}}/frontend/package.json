@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:client": "openapi --input http://localhost/api/openapi.json --output ./src/client --client axios"
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
